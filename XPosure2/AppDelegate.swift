@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  XPosure2
 //
-//  Created by Franziska Reuter on 17.09.17.
+//  Created by Henrik Wollersheim on 17.09.17.
 //  Copyright © 2017 idek Ltd. All rights reserved.
 //
 
