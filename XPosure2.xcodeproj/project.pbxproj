@@ -10,6 +10,8 @@
 		AF21976193534766F31A1FB2 /* Pods_XPosure2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E62C0D080A630C6F09CA7DE /* Pods_XPosure2.framework */; };
 		B11F29421F6EE71100A58EB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11F29411F6EE71100A58EB1 /* AppDelegate.swift */; };
 		B11F29491F6EE71100A58EB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B11F29481F6EE71100A58EB1 /* Assets.xcassets */; };
+		B11F6D801F72E1CA00311650 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11F6D7F1F72E1CA00311650 /* UserService.swift */; };
+		B125B2131F71B03F002DCF66 /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125B2121F71B03F002DCF66 /* CreateUsernameViewController.swift */; };
 		B1F978B71F707BAC00674471 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F978B61F707BAC00674471 /* User.swift */; };
 		B1FFA60A1F6F10A40004EFD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1FFA6051F6F10A40004EFD0 /* LaunchScreen.storyboard */; };
 		B1FFA60B1F6F10A40004EFD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1FFA6061F6F10A40004EFD0 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 		B11F293E1F6EE71100A58EB1 /* XPosure2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XPosure2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B11F29411F6EE71100A58EB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B11F29481F6EE71100A58EB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B11F6D7F1F72E1CA00311650 /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserService.swift; path = Services/UserService.swift; sourceTree = "<group>"; };
+		B125B2121F71B03F002DCF66 /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateUsernameViewController.swift; path = Controller/CreateUsernameViewController.swift; sourceTree = "<group>"; };
 		B1F978B61F707BAC00674471 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Model/User.swift; sourceTree = "<group>"; };
 		B1FFA6051F6F10A40004EFD0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = View/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1FFA6061F6F10A40004EFD0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = View/Main.storyboard; sourceTree = "<group>"; };
@@ -89,11 +93,20 @@
 				B11F29411F6EE71100A58EB1 /* AppDelegate.swift */,
 				B1FFA6111F6F11200004EFD0 /* Controller */,
 				B1F978B51F707B7E00674471 /* Model */,
+				B11F6D7E1F72E1A900311650 /* Service */,
 				B1FFA6101F6F11160004EFD0 /* Supporting */,
 				B1FFA60F1F6F110D0004EFD0 /* View */,
 				B11F29481F6EE71100A58EB1 /* Assets.xcassets */,
 			);
 			path = XPosure2;
+			sourceTree = "<group>";
+		};
+		B11F6D7E1F72E1A900311650 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B11F6D7F1F72E1CA00311650 /* UserService.swift */,
+			);
+			name = Service;
 			sourceTree = "<group>";
 		};
 		B1F978B51F707B7E00674471 /* Model */ = {
@@ -128,6 +141,7 @@
 			children = (
 				B1FFA6091F6F10A40004EFD0 /* ViewController.swift */,
 				B1FFA6161F6F13EB0004EFD0 /* LoginViewController.swift */,
+				B125B2121F71B03F002DCF66 /* CreateUsernameViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -275,7 +289,9 @@
 			files = (
 				B1F978B71F707BAC00674471 /* User.swift in Sources */,
 				B1FFA6171F6F13EB0004EFD0 /* LoginViewController.swift in Sources */,
+				B11F6D801F72E1CA00311650 /* UserService.swift in Sources */,
 				B1FFA60E1F6F10A40004EFD0 /* ViewController.swift in Sources */,
+				B125B2131F71B03F002DCF66 /* CreateUsernameViewController.swift in Sources */,
 				B11F29421F6EE71100A58EB1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
