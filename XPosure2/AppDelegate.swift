@@ -21,16 +21,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // Set Login storyboard's Initial VC as the first VC on start:
         
-        let storyboard = UIStoryboard(name: "Login", bundle: .main)
-        
-        if let initialViewController = storyboard.instantiateInitialViewController() {
-            
-            window?.rootViewController = initialViewController
-            
-            window?.makeKeyAndVisible()
-            
-        }
-        
+        let initialViewController = UIStoryboard.initialViewController(for: .login)
+        window?.rootViewController = initialViewController
+        window?.makeKeyAndVisible()
         
         return true
     }
