@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="tab_plus_black" id="NyZ-F6-PFL">
+                    <tabBarItem key="tabBarItem" tag="1" title="" image="tab_plus_black" id="NyZ-F6-PFL">
                         <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
                     </tabBarItem>
                 </viewController>
@@ -43,7 +43,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="tab_profile_black" id="mSf-Wy-2Fn">
+                    <tabBarItem key="tabBarItem" tag="2" title="" image="tab_profile_black" id="mSf-Wy-2Fn">
                         <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
                     </tabBarItem>
                 </viewController>
@@ -72,10 +72,10 @@
             </objects>
             <point key="canvasLocation" x="-1577" y="594"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Main Tab Bar Controller-->
         <scene sceneID="bef-WC-4rJ">
             <objects>
-                <tabBarController id="WFP-94-sUb" sceneMemberID="viewController">
+                <tabBarController id="WFP-94-sUb" customClass="MainTabBarController" customModule="XPosure2" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="nrd-mg-zu0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>

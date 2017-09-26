@@ -41,5 +41,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>In order to upload an image to XPosure, we need your permission to access your photo library.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>In order to upload an image to XPosure, we need your permission to access your devices camera.</string>
 </dict>
 </plist>
