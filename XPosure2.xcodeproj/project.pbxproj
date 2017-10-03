@@ -20,10 +20,13 @@
 		B125B2131F71B03F002DCF66 /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125B2121F71B03F002DCF66 /* CreateUsernameViewController.swift */; };
 		B15A876E1F7A68DE0078F2A8 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15A876D1F7A68DE0078F2A8 /* StorageService.swift */; };
 		B15A87701F7A7C2E0078F2A8 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15A876F1F7A7C2E0078F2A8 /* PostService.swift */; };
+		B1A6AC451F7D12090095B5C1 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A6AC441F7D12090095B5C1 /* Home.storyboard */; };
+		B1F2406F1F8424B3006EC639 /* PostHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F2406E1F8424B3006EC639 /* PostHeaderCell.swift */; };
 		B1F978B71F707BAC00674471 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F978B61F707BAC00674471 /* User.swift */; };
 		B1F9D8571F7C022D00037B20 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F9D8561F7C022D00037B20 /* Post.swift */; };
 		B1F9D8591F7C063000037B20 /* UIImage+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F9D8581F7C063000037B20 /* UIImage+Size.swift */; };
 		B1F9D85B1F7C073B00037B20 /* StorageReference+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F9D85A1F7C073B00037B20 /* StorageReference+Post.swift */; };
+		B1FE0EA41F7E538300C30935 /* PostImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FE0EA31F7E538300C30935 /* PostImageCell.swift */; };
 		B1FFA60A1F6F10A40004EFD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1FFA6051F6F10A40004EFD0 /* LaunchScreen.storyboard */; };
 		B1FFA60B1F6F10A40004EFD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1FFA6061F6F10A40004EFD0 /* Main.storyboard */; };
 		B1FFA60C1F6F10A40004EFD0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1FFA6071F6F10A40004EFD0 /* GoogleService-Info.plist */; };
@@ -48,10 +51,13 @@
 		B125B2121F71B03F002DCF66 /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateUsernameViewController.swift; path = Controller/CreateUsernameViewController.swift; sourceTree = "<group>"; };
 		B15A876D1F7A68DE0078F2A8 /* StorageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StorageService.swift; path = Services/StorageService.swift; sourceTree = "<group>"; };
 		B15A876F1F7A7C2E0078F2A8 /* PostService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostService.swift; path = Services/PostService.swift; sourceTree = "<group>"; };
+		B1A6AC441F7D12090095B5C1 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		B1F2406E1F8424B3006EC639 /* PostHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostHeaderCell.swift; path = View/PostHeaderCell.swift; sourceTree = "<group>"; };
 		B1F978B61F707BAC00674471 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Model/User.swift; sourceTree = "<group>"; };
 		B1F9D8561F7C022D00037B20 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Post.swift; path = Model/Post.swift; sourceTree = "<group>"; };
 		B1F9D8581F7C063000037B20 /* UIImage+Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+Size.swift"; path = "Extensions/UIImage+Size.swift"; sourceTree = "<group>"; };
 		B1F9D85A1F7C073B00037B20 /* StorageReference+Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "StorageReference+Post.swift"; path = "Extensions/StorageReference+Post.swift"; sourceTree = "<group>"; };
+		B1FE0EA31F7E538300C30935 /* PostImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostImageCell.swift; path = View/PostImageCell.swift; sourceTree = "<group>"; };
 		B1FFA6051F6F10A40004EFD0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = View/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1FFA6061F6F10A40004EFD0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = View/Main.storyboard; sourceTree = "<group>"; };
 		B1FFA6071F6F10A40004EFD0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Supporting/GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -165,7 +171,10 @@
 			children = (
 				B1FFA6051F6F10A40004EFD0 /* LaunchScreen.storyboard */,
 				B1FFA6061F6F10A40004EFD0 /* Main.storyboard */,
+				B1A6AC441F7D12090095B5C1 /* Home.storyboard */,
 				B1FFA6121F6F12720004EFD0 /* Login.storyboard */,
+				B1FE0EA31F7E538300C30935 /* PostImageCell.swift */,
+				B1F2406E1F8424B3006EC639 /* PostHeaderCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -258,6 +267,7 @@
 				B1FFA60B1F6F10A40004EFD0 /* Main.storyboard in Resources */,
 				B1FFA60C1F6F10A40004EFD0 /* GoogleService-Info.plist in Resources */,
 				B11F29491F6EE71100A58EB1 /* Assets.xcassets in Resources */,
+				B1A6AC451F7D12090095B5C1 /* Home.storyboard in Resources */,
 				B1FFA6131F6F12720004EFD0 /* Login.storyboard in Resources */,
 				B1FFA60A1F6F10A40004EFD0 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -293,6 +303,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-XPosure2/Pods-XPosure2-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -300,6 +311,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -339,6 +351,7 @@
 				B119FED21F7962F9008EA064 /* MainTabBarController.swift in Sources */,
 				B119FED51F796880008EA064 /* XPPhotoHelper.swift in Sources */,
 				B1F9D8571F7C022D00037B20 /* Post.swift in Sources */,
+				B1FE0EA41F7E538300C30935 /* PostImageCell.swift in Sources */,
 				B1F9D8591F7C063000037B20 /* UIImage+Size.swift in Sources */,
 				B11F6D801F72E1CA00311650 /* UserService.swift in Sources */,
 				B10DB13E1F785F53006EDADA /* HomeViewController.swift in Sources */,
@@ -348,6 +361,7 @@
 				B10F569B1F76DDE4000FE5D6 /* Constants.swift in Sources */,
 				B15A87701F7A7C2E0078F2A8 /* PostService.swift in Sources */,
 				B125B2131F71B03F002DCF66 /* CreateUsernameViewController.swift in Sources */,
+				B1F2406F1F8424B3006EC639 /* PostHeaderCell.swift in Sources */,
 				B11F29421F6EE71100A58EB1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
