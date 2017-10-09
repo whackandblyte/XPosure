@@ -57,8 +57,29 @@ struct UserService {
                 return completion([])
             }
             
-            let posts = snapshot.reversed().flatMap(Post.init)
-            completion(posts)
+            let dispatchGroup = DispatchGroup()
+            
+            let posts: [Post] =
+                snapshot
+                    .reversed()
+                    .flatMap {
+                        guard let post = Post(snapshot: $0)
+                            else { return nil }
+                        
+                        dispatchGroup.enter()
+                        
+                        LikeService.isPostLiked(post) { (isLiked) in
+                            post.isLiked = isLiked
+                            dispatchGroup.leave()
+                        }
+                        
+                        return post
+                        
+                }
+            
+            dispatchGroup.notify(queue: .main, execute: { 
+                completion(posts)
+            })
             
         })
         

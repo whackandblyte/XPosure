@@ -19,4 +19,10 @@ struct Constants {
         static let uid = "uid"
         static let username = "username"
     }
+    
+    struct PostElements {
+        static let postHeaderCell = "PostHeaderCell"
+        static let postImageCell = "PostImageCell"
+        static let postActionCell = "PostActionCell"
+    }
 }

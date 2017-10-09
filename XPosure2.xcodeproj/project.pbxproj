@@ -17,10 +17,12 @@
 		B11F29421F6EE71100A58EB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11F29411F6EE71100A58EB1 /* AppDelegate.swift */; };
 		B11F29491F6EE71100A58EB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B11F29481F6EE71100A58EB1 /* Assets.xcassets */; };
 		B11F6D801F72E1CA00311650 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11F6D7F1F72E1CA00311650 /* UserService.swift */; };
+		B1203CD01F86BE8C0014CAE1 /* LikeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1203CCF1F86BE8C0014CAE1 /* LikeService.swift */; };
 		B125B2131F71B03F002DCF66 /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125B2121F71B03F002DCF66 /* CreateUsernameViewController.swift */; };
 		B15A876E1F7A68DE0078F2A8 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15A876D1F7A68DE0078F2A8 /* StorageService.swift */; };
 		B15A87701F7A7C2E0078F2A8 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15A876F1F7A7C2E0078F2A8 /* PostService.swift */; };
 		B1A6AC451F7D12090095B5C1 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A6AC441F7D12090095B5C1 /* Home.storyboard */; };
+		B1DC92E81F85520400F853C3 /* PostActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DC92E71F85520400F853C3 /* PostActionCell.swift */; };
 		B1F2406F1F8424B3006EC639 /* PostHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F2406E1F8424B3006EC639 /* PostHeaderCell.swift */; };
 		B1F978B71F707BAC00674471 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F978B61F707BAC00674471 /* User.swift */; };
 		B1F9D8571F7C022D00037B20 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F9D8561F7C022D00037B20 /* Post.swift */; };
@@ -48,10 +50,12 @@
 		B11F29411F6EE71100A58EB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B11F29481F6EE71100A58EB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B11F6D7F1F72E1CA00311650 /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserService.swift; path = Services/UserService.swift; sourceTree = "<group>"; };
+		B1203CCF1F86BE8C0014CAE1 /* LikeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LikeService.swift; path = Services/LikeService.swift; sourceTree = "<group>"; };
 		B125B2121F71B03F002DCF66 /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateUsernameViewController.swift; path = Controller/CreateUsernameViewController.swift; sourceTree = "<group>"; };
 		B15A876D1F7A68DE0078F2A8 /* StorageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StorageService.swift; path = Services/StorageService.swift; sourceTree = "<group>"; };
 		B15A876F1F7A7C2E0078F2A8 /* PostService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostService.swift; path = Services/PostService.swift; sourceTree = "<group>"; };
 		B1A6AC441F7D12090095B5C1 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		B1DC92E71F85520400F853C3 /* PostActionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostActionCell.swift; path = View/PostActionCell.swift; sourceTree = "<group>"; };
 		B1F2406E1F8424B3006EC639 /* PostHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostHeaderCell.swift; path = View/PostHeaderCell.swift; sourceTree = "<group>"; };
 		B1F978B61F707BAC00674471 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Model/User.swift; sourceTree = "<group>"; };
 		B1F9D8561F7C022D00037B20 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Post.swift; path = Model/Post.swift; sourceTree = "<group>"; };
@@ -153,6 +157,7 @@
 				B11F6D7F1F72E1CA00311650 /* UserService.swift */,
 				B15A876D1F7A68DE0078F2A8 /* StorageService.swift */,
 				B15A876F1F7A7C2E0078F2A8 /* PostService.swift */,
+				B1203CCF1F86BE8C0014CAE1 /* LikeService.swift */,
 			);
 			name = Service;
 			sourceTree = "<group>";
@@ -175,6 +180,7 @@
 				B1FFA6121F6F12720004EFD0 /* Login.storyboard */,
 				B1FE0EA31F7E538300C30935 /* PostImageCell.swift */,
 				B1F2406E1F8424B3006EC639 /* PostHeaderCell.swift */,
+				B1DC92E71F85520400F853C3 /* PostActionCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -350,6 +356,8 @@
 				B1FFA6171F6F13EB0004EFD0 /* LoginViewController.swift in Sources */,
 				B119FED21F7962F9008EA064 /* MainTabBarController.swift in Sources */,
 				B119FED51F796880008EA064 /* XPPhotoHelper.swift in Sources */,
+				B1DC92E81F85520400F853C3 /* PostActionCell.swift in Sources */,
+				B1203CD01F86BE8C0014CAE1 /* LikeService.swift in Sources */,
 				B1F9D8571F7C022D00037B20 /* Post.swift in Sources */,
 				B1FE0EA41F7E538300C30935 /* PostImageCell.swift in Sources */,
 				B1F9D8591F7C063000037B20 /* UIImage+Size.swift in Sources */,
