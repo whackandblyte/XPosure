@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		AF21976193534766F31A1FB2 /* Pods_XPosure2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E62C0D080A630C6F09CA7DE /* Pods_XPosure2.framework */; };
+		B101E5841F8E25CE00BE1B26 /* FollowService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B101E5831F8E25CE00BE1B26 /* FollowService.swift */; };
+		B101E5861F8E31A800BE1B26 /* FindFriends.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B101E5851F8E31A800BE1B26 /* FindFriends.storyboard */; };
+		B101E5881F8E333E00BE1B26 /* FindFriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B101E5871F8E333E00BE1B26 /* FindFriendsCell.swift */; };
 		B10DB13E1F785F53006EDADA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10DB13D1F785F53006EDADA /* HomeViewController.swift */; };
 		B10DB1401F785F72006EDADA /* FindFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10DB13F1F785F72006EDADA /* FindFriendsViewController.swift */; };
 		B10F569B1F76DDE4000FE5D6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10F569A1F76DDE4000FE5D6 /* Constants.swift */; };
@@ -40,6 +43,9 @@
 		3E62C0D080A630C6F09CA7DE /* Pods_XPosure2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XPosure2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		599C79CD829C1FB7C7550CD5 /* Pods-XPosure2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XPosure2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XPosure2/Pods-XPosure2.debug.xcconfig"; sourceTree = "<group>"; };
 		87F80CC5EBAE1CE6573D49AB /* Pods-XPosure2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XPosure2.release.xcconfig"; path = "Pods/Target Support Files/Pods-XPosure2/Pods-XPosure2.release.xcconfig"; sourceTree = "<group>"; };
+		B101E5831F8E25CE00BE1B26 /* FollowService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FollowService.swift; path = Services/FollowService.swift; sourceTree = "<group>"; };
+		B101E5851F8E31A800BE1B26 /* FindFriends.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = FindFriends.storyboard; path = View/FindFriends.storyboard; sourceTree = "<group>"; };
+		B101E5871F8E333E00BE1B26 /* FindFriendsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FindFriendsCell.swift; path = View/FindFriendsCell.swift; sourceTree = "<group>"; };
 		B10DB13D1F785F53006EDADA /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = Controller/HomeViewController.swift; sourceTree = "<group>"; };
 		B10DB13F1F785F72006EDADA /* FindFriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FindFriendsViewController.swift; path = Controller/FindFriendsViewController.swift; sourceTree = "<group>"; };
 		B10F569A1F76DDE4000FE5D6 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Supporting/Constants.swift; sourceTree = "<group>"; };
@@ -139,13 +145,13 @@
 			isa = PBXGroup;
 			children = (
 				B11F29411F6EE71100A58EB1 /* AppDelegate.swift */,
+				B1F978B51F707B7E00674471 /* Model */,
+				B1FFA60F1F6F110D0004EFD0 /* View */,
 				B1FFA6111F6F11200004EFD0 /* Controller */,
 				B10F569C1F76E368000FE5D6 /* Extensions */,
 				B119FED31F796855008EA064 /* Helpers */,
-				B1F978B51F707B7E00674471 /* Model */,
 				B11F6D7E1F72E1A900311650 /* Service */,
 				B1FFA6101F6F11160004EFD0 /* Supporting */,
-				B1FFA60F1F6F110D0004EFD0 /* View */,
 				B11F29481F6EE71100A58EB1 /* Assets.xcassets */,
 			);
 			path = XPosure2;
@@ -158,6 +164,7 @@
 				B15A876D1F7A68DE0078F2A8 /* StorageService.swift */,
 				B15A876F1F7A7C2E0078F2A8 /* PostService.swift */,
 				B1203CCF1F86BE8C0014CAE1 /* LikeService.swift */,
+				B101E5831F8E25CE00BE1B26 /* FollowService.swift */,
 			);
 			name = Service;
 			sourceTree = "<group>";
@@ -176,11 +183,13 @@
 			children = (
 				B1FFA6051F6F10A40004EFD0 /* LaunchScreen.storyboard */,
 				B1FFA6061F6F10A40004EFD0 /* Main.storyboard */,
+				B101E5851F8E31A800BE1B26 /* FindFriends.storyboard */,
 				B1A6AC441F7D12090095B5C1 /* Home.storyboard */,
 				B1FFA6121F6F12720004EFD0 /* Login.storyboard */,
 				B1FE0EA31F7E538300C30935 /* PostImageCell.swift */,
 				B1F2406E1F8424B3006EC639 /* PostHeaderCell.swift */,
 				B1DC92E71F85520400F853C3 /* PostActionCell.swift */,
+				B101E5871F8E333E00BE1B26 /* FindFriendsCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -273,6 +282,7 @@
 				B1FFA60B1F6F10A40004EFD0 /* Main.storyboard in Resources */,
 				B1FFA60C1F6F10A40004EFD0 /* GoogleService-Info.plist in Resources */,
 				B11F29491F6EE71100A58EB1 /* Assets.xcassets in Resources */,
+				B101E5861F8E31A800BE1B26 /* FindFriends.storyboard in Resources */,
 				B1A6AC451F7D12090095B5C1 /* Home.storyboard in Resources */,
 				B1FFA6131F6F12720004EFD0 /* Login.storyboard in Resources */,
 				B1FFA60A1F6F10A40004EFD0 /* LaunchScreen.storyboard in Resources */,
@@ -351,6 +361,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B101E5841F8E25CE00BE1B26 /* FollowService.swift in Sources */,
 				B1F978B71F707BAC00674471 /* User.swift in Sources */,
 				B15A876E1F7A68DE0078F2A8 /* StorageService.swift in Sources */,
 				B1FFA6171F6F13EB0004EFD0 /* LoginViewController.swift in Sources */,
@@ -360,6 +371,7 @@
 				B1203CD01F86BE8C0014CAE1 /* LikeService.swift in Sources */,
 				B1F9D8571F7C022D00037B20 /* Post.swift in Sources */,
 				B1FE0EA41F7E538300C30935 /* PostImageCell.swift in Sources */,
+				B101E5881F8E333E00BE1B26 /* FindFriendsCell.swift in Sources */,
 				B1F9D8591F7C063000037B20 /* UIImage+Size.swift in Sources */,
 				B11F6D801F72E1CA00311650 /* UserService.swift in Sources */,
 				B10DB13E1F785F53006EDADA /* HomeViewController.swift in Sources */,

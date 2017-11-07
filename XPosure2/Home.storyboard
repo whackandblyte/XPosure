@@ -23,7 +23,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Zt5-U4-h8Y">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="46" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Zt5-U4-h8Y">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -118,7 +118,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uUf-80-yUt">
-                                                    <rect key="frame" x="23" y="37" width="329" height="0.5"/>
+                                                    <rect key="frame" x="23" y="45" width="329" height="0.5"/>
                                                     <color key="backgroundColor" red="0.85882352941176465" green="0.85882352941176465" blue="0.85882352941176465" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="0.5" id="tdy-ZY-irl"/>
@@ -130,11 +130,11 @@
                                                 <constraint firstItem="UVK-Vh-6tR" firstAttribute="top" secondItem="xZp-H8-jQR" secondAttribute="top" id="A2J-nL-w1c"/>
                                                 <constraint firstAttribute="bottom" secondItem="UVK-Vh-6tR" secondAttribute="bottom" id="AIl-5s-cRS"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="uUf-80-yUt" secondAttribute="trailing" constant="15" id="D2y-1n-X7v"/>
+                                                <constraint firstAttribute="bottom" secondItem="uUf-80-yUt" secondAttribute="bottom" id="Hdp-xd-PbY"/>
                                                 <constraint firstItem="uUf-80-yUt" firstAttribute="leading" secondItem="xZp-H8-jQR" secondAttribute="leadingMargin" constant="15" id="JLO-Ij-mLE"/>
                                                 <constraint firstAttribute="trailing" secondItem="3e6-b2-zPY" secondAttribute="trailing" constant="15" id="W2z-n4-3Vz"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="eC4-v6-p2T" secondAttribute="bottom" id="Z5J-Ub-tv8"/>
                                                 <constraint firstItem="eC4-v6-p2T" firstAttribute="top" secondItem="xZp-H8-jQR" secondAttribute="topMargin" id="Z5z-OW-w7u"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="uUf-80-yUt" secondAttribute="bottom" id="e7l-mO-woj"/>
                                                 <constraint firstItem="UVK-Vh-6tR" firstAttribute="leading" secondItem="xZp-H8-jQR" secondAttribute="leading" constant="2" id="efQ-NS-sW6"/>
                                                 <constraint firstItem="3e6-b2-zPY" firstAttribute="top" secondItem="xZp-H8-jQR" secondAttribute="top" id="n3w-95-aoH"/>
                                                 <constraint firstAttribute="bottom" secondItem="3e6-b2-zPY" secondAttribute="bottom" id="xMA-ro-e5s"/>
